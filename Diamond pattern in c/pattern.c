@@ -1,3 +1,5 @@
+    Author: Khush Trivedi
+
 #include<stdio.h>
 int main () {
 int n;
