@@ -16,7 +16,7 @@ int main () {
 
                    
 
-        for(int k=1;k<=n-i;k++){
+        for(int k=1;k<=n-i;k++){                //Here k represents loop for spacing
             printf(" ");
         }
         for(int j=1;j<=i;j++){
