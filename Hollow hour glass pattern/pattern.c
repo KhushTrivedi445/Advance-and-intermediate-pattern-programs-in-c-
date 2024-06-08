@@ -6,7 +6,7 @@ int main () {
     
 
     for(int i=1;i<=n;i++){
-         for(int k=0;k<=i;k++){
+         for(int k=0;k<=i;k++){            //This loop is for spacing
             printf(" ");
          }
          for(int j=n;j>=i;j--){
@@ -21,9 +21,9 @@ int main () {
 
 
     for(int i=2;i<=n;i++){
-        for(int k=1;k<=n-i+2;k++){
+        for(int k=1;k<=n-i+2;k++){    //This lop is for spacing
             printf(" ");
-        }
+        }   
         for(int j=1;j<=i;j++){
             if(j==1 || j==i || i==2 | i==n ){
             printf("* ");
