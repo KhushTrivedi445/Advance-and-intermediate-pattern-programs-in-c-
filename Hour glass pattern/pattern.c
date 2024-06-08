@@ -41,8 +41,7 @@ Enter the size of hour glass :5
    * * * *  
     * * *   
      * *    
-      *     
-      *     
+      *         
      * *    
     * * *   
    * * * *  
