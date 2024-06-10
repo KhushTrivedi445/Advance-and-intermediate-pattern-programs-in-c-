@@ -7,7 +7,7 @@ scanf("%d",&n);
 printf("\n");
 //This two loops are for the upper to triangles in heart
 for(int i=2;i<=n;i++){                         
-    for(int k=1;k<=n-i;k++){                    
+    for(int k=1;k<=n-i;k++){                                        //This loop is for spacing  
 
         printf(" ");
     }
@@ -20,14 +20,14 @@ for(int i=2;i<=n;i++){
     }
 
     
-       for(int k=1;k<=n-i;k++){
+       for(int k=1;k<=n-i;k++){                                 //This loop is for spacing
         printf(" ");
     }    
 
 
 
 
-    for(int k=1;k<=n-i;k++){
+    for(int k=1;k<=n-i;k++){                                  // This loop is for spacing
         printf(" ");
     } 
     for(int j=1;j<=i;j++){
@@ -41,7 +41,7 @@ for(int i=2;i<=n;i++){
 }
  // This loop is for bottom reverse triangle
  for(int i=2;i<=2*n;i++){
-    for(int k=0;k<i-1;k++){
+    for(int k=0;k<i-1;k++){                                       //This loop is for spacing
         printf(" ");
     }
     for(int j=2*n;j>=i;j--){
