@@ -20,7 +20,7 @@ int main () {
 
                    
 
-        for(int k=1;k<=n-i;k++){
+        for(int k=1;k<=n-i;k++){                               //This loop is for spacing
             printf(" ");
         }
         for(int j=1;j<=i;j++){
@@ -45,12 +45,12 @@ int main () {
         
 
          
-        for(int k=0;k<=i-1;k++){
+        for(int k=0;k<=i-1;k++){                      //This loop is for spacing
             printf(" ");
         }   
 
 
-        for(int k=1;k<=i-1;k++){
+        for(int k=1;k<=i-1;k++){                    //This loop is for spacing
             printf(" ");
         }
         for(int j=n;j>=i;j--){
