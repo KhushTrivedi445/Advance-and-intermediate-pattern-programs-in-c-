@@ -6,7 +6,7 @@ scanf("%d",&n);
 printf("Enter the number of columns : ");
 scanf("%d",&m);
 for(int i=1;i<=n;i++){
-    for(int k=n;k>=i;k--){
+    for(int k=n;k>=i;k--){            //This loop is for spacing
         printf(" ");
     }for(int j=1;j<=m;j++){
         printf("* ");
